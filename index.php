@@ -20,6 +20,6 @@ sort($data);
 for($i=0; $i < count($data); $i++)
 {
     "<pre>".
-    print_r($data[$i])
+    print_r("$i:$data[$i] ")
     ."<pre/>";
 }
